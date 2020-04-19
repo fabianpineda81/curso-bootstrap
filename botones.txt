@@ -1,0 +1,1 @@
+btn-block ----el boton ocupa todo el encho que tiene disponible  

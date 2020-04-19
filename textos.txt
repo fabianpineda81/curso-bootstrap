@@ -1,0 +1,20 @@
+para poner todo las letras en mayuculas se una la clase text-uppercase
+
+bages -----> son plantillas de texto 
+
+la etiqueta <small>---> se usa para dar un mensaje por lo general se usa con la clase text-uppercase
+
+tooltip yAbbreviations-------------------------------------
+
+son para dar infomracion al usuario cuando pase por el mause por una palabra 
+
+
+se usa para hacer que todos las abreviaciones funcionen bien 
+ $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+}) 
+y hay que poner en los elementos html 
+data-toggle="tooltip" 
+para que puede hacer referencia 
+
+https://getbootstrap.com/docs/4.0/utilities/text/------------> para los textos

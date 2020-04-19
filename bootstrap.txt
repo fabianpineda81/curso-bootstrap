@@ -1,0 +1,116 @@
+para seccion de la pagina hay que ponerle un container y crear los row y las col 
+
+clase para padding y margin 
+pt-4 ----> padding top 
+mb-4 -----> margin booton 
+
+nav var ----------------
+ si se quiere que el nav var se vean en toda la pagina (o sea que no desapareca ) se le pone la clase class="stiky-top" 
+
+ en el logo se cambia nav var y se pone una img 
+ en el ul que tiene la clase navbar-nav se cambian ml-auto a mr-auto para que el menu 
+se valla para le derecha 
+
+.text-platzi{
+color:#97c93e !important; ----->
+}
+
+
+caurrsel -----------
+object-fit:cover ------>arreglar imagen para que no se vea estirada 
+quitar los controles 
+data-pause=false -----> para que no realice un una pausa cuando este el maus en el carruser 
+filter:grayscale(70%)-------> para poner una escala de grises de 70%
+
+overlay ----------------------------- 
+cambiar el id a carrusel 
+crear div con clase overlay 
+
+#carrusel {
+position relative;  
+}
+
+#carrusel .overlay {
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+background-color:rgba(0,0,0,0.5)
+color:white; 
+}
+
+para centrar verticalmente hay que darle al container y el overlay el 100% de la altura
+y hay que usar la clase align-items-center 
+
+usaer la clase d-none para poner display none
+y usar d-md-blok para poner display block desde tamaños medianos 
+
+para poner el texto hacia la derecha se usa la clase 
+h-100 -------> eso hace que el elemento tenga una altura de 100%
+para poner el texto centrado se usa la clase text-center 
+
+para poner todo las letras en mayuculas se una la clase text-uppercase
+
+bages -----> son plantillas de texto 
+
+max-which -----> para que las imagenes ocupen el ancho disponible 
+
+btn-block ----el boton ocupa todo el encho que tiene disponible  
+
+la etiqueta <small>---> se usa para dar un mensaje por lo general se usa con la clase text-uppercase
+
+formularios --------------------------------------
+los formulario funciona creando los from row y ahi van los que van en la misma columna por ejemplo nombre y apellido 
+
+y la clase form-group se una para separa grupos de imput 
+
+en los forms de puede jugar con el tamaño de los col 
+
+por lo general todos los imput van dentro de los forms group  
+
+class="form row"----> se una para crear una columna de formulario
+
+class="form-group"----> se una para hacer un grupo dentro de un formulario
+
+la etiqueta <small>---> se usa para dar un mensaje por lo general se usa con la clase form-text 
+ 
+form-control form-control-lg
+
+tooltip yAbbreviations-------------------------------------
+
+son para dar infomracion al usuario cuando pase por el mause por una palabra 
+
+
+se usa para hacer que todos las abreviaciones funcionen bien 
+ $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+}) 
+y hay que poner en los elementos html 
+data-toggle="tooltip" 
+para que puede hacer referencia 
+
+scrollspy---------------------------------
+sirve para decirle al usuario donde esta parado  
+
+
+para poder spiar donde un elemento (para saber si esta parado sobre ese elemento )
+se debe poner el atributo data-spy="scroll" y otro elemento data-target="#elemento-al-cual-apuentar" (tiene que llevar el #)
+por lo general es el body 
+
+al body tambien se le debe agregar un atributo llamada data-offset el cual debe tener como valor el mismo tamaño del nav var 
+asi se evita el problema de que el offset del srollspy ejemplo data-offset="57"
+ 
+a los link de la barra de navegacion hay que ponerle id en el -->href="#id-elemento"
+
+
+agregar un modal -------------------------------------------
+
+hay que tener un boton con el data-target con el id(con #) del modal 
+y el mismo boton tiene que tener el atributo data-toggle="modal"
+
+git pages ----------------------------------
+
+
+links-------------------------------------------
+https://getbootstrap.com/docs/4.0/utilities/text/------------> para los textos

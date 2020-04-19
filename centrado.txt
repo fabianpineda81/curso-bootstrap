@@ -1,0 +1,10 @@
+para centrar verticalmente hay que darle al container y el overlay el 100% de la altura
+y hay que usar la clase align-items-center 
+
+usaer la clase d-none para poner display none
+y usar d-md-blok para poner display block desde tamaños medianos 
+
+para poner el texto hacia la derecha se usa la clase 
+h-100 -------> eso hace que el elemento tenga una altura de 100%
+para poner el texto centrado se usa la clase text-center 
+

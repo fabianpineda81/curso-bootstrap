@@ -1,0 +1,10 @@
+nav var ----------------
+ si se quiere que el nav var se vean en toda la pagina (o sea que no desapareca ) se le pone la clase class="stiky-top" 
+
+ en el logo se cambia nav var y se pone una img 
+ en el ul que tiene la clase navbar-nav se cambian ml-auto a mr-auto para que el menu 
+se valla para le derecha 
+
+.text-platzi{
+color:#97c93e !important; ----->
+}

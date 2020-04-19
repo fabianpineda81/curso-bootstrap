@@ -1,0 +1,1 @@
+max-which -----> para que las imagenes ocupen el ancho disponible 

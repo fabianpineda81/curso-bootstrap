@@ -1,0 +1,3 @@
+clase para padding y margin 
+pt-4 ----> padding top 
+mb-4 -----> margin booton 

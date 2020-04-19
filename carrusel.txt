@@ -1,0 +1,23 @@
+caurrsel -----------
+object-fit:cover ------>arreglar imagen para que no se vea estirada 
+quitar los controles 
+data-pause=false -----> para que no realice un una pausa cuando este el maus en el carruser 
+filter:grayscale(70%)-------> para poner una escala de grises de 70%
+
+overlay ----------------------------- 
+cambiar el id a carrusel 
+crear div con clase overlay 
+
+#carrusel {
+position relative;  
+}
+
+#carrusel .overlay {
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+background-color:rgba(0,0,0,0.5)
+color:white; 
+}

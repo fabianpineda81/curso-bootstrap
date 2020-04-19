@@ -1,0 +1,5 @@
+agregar un modal -------------------------------------------
+
+hay que tener un boton con el data-target con el id(con #) del modal 
+y el mismo boton tiene que tener el atributo data-toggle="modal"
+

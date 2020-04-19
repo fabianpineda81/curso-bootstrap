@@ -1,0 +1,17 @@
+formularios --------------------------------------
+los formulario funciona creando los from row y ahi van los que van en la misma columna por ejemplo nombre y apellido 
+
+y la clase form-group se una para separa grupos de imput 
+
+en los forms de puede jugar con el tamaño de los col 
+
+por lo general todos los imput van dentro de los forms group  
+
+class="form row"----> se una para crear una columna de formulario
+
+class="form-group"----> se una para hacer un grupo dentro de un formulario
+
+la etiqueta <small>---> se usa para dar un mensaje por lo general se usa con la clase form-text 
+ 
+form-control form-control-lg
+

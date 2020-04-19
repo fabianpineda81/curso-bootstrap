@@ -1,0 +1,13 @@
+crollspy---------------------------------
+sirve para decirle al usuario donde esta parado  
+
+
+para poder spiar donde un elemento (para saber si esta parado sobre ese elemento )
+se debe poner el atributo data-spy="scroll" y otro elemento data-target="#elemento-al-cual-apuentar" (tiene que llevar el #)
+por lo general es el body 
+
+al body tambien se le debe agregar un atributo llamada data-offset el cual debe tener como valor el mismo tamaño del nav var 
+asi se evita el problema de que el offset del srollspy ejemplo data-offset="57"
+ 
+a los link de la barra de navegacion hay que ponerle id en el -->href="#id-elemento"
+
