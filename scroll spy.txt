@@ -3,7 +3,7 @@ sirve para decirle al usuario donde esta parado
 
 
 para poder spiar donde un elemento (para saber si esta parado sobre ese elemento )
-se debe poner el atributo data-spy="scroll" y otro elemento data-target="#elemento-al-cual-apuentar" (tiene que llevar el #)
+se debe poner el atributo data-spy="scroll" y otro elemento data-target="#nav-var" que es el elemento a donde vas a llevar la info  (tiene que llevar el #)
 por lo general es el body 
 
 al body tambien se le debe agregar un atributo llamada data-offset el cual debe tener como valor el mismo tamaño del nav var 
